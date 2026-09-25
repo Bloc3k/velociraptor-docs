@@ -43,7 +43,7 @@ Arg | Description | Type
 ----|-------------|-----
 chunk|length of each chunk to read from the file.|int
 max_length|Max length of the file to read.|int
-filenames|One or more files to open.|list of OSPath (required)
+filename|One or more files to open.|list of OSPath (required)
 accessor|An accessor to use.|string
 
 **Required permissions:** `FILESYSTEM_READ`
